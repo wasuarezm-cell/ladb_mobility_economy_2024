@@ -1,34 +1,30 @@
-Urban Mobility and Economy Analysis 2024
-✔ What is this project about?
-This project evaluates how urban mobility relates to economic productivity in major global cities during 2024 (covering multiple countries worldwide, not just Latin America).
+# 🏙️ Urban Mobility & Economy Analysis 2024
 
-By processing real-world data from the TomTom Traffic Index and OECD Cities, the analysis focuses on cleaning, merging, and analyzing key metrics such as traffic congestion levels (jams_delay) and GDP per capita (city_gdp_capita). The ultimate goal is to identify patterns that help determine in which cities and emerging megalopolises it is most critical and strategic to invest in transportation infrastructure to boost economic productivity.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AeRWISu0kwJPH94dVlmNUQ9JW3WEbvy_)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/wasuarezm-cell/ladb_mobility_economy_2024)
 
-✔ What does this repository contain?
-S5 ladb_mobility_economy_project_student.ipynb: This is the main notebook of the project. It contains all the Python code used for data cleaning, column standardization, filtering for the year 2024, and calculating average traffic delays per city.
+## ✔️ What is this project about?
+This project evaluates how urban mobility impacts economic productivity across major cities worldwide in 2024. 
 
-Data Visualizations: The notebook includes charts generated with seaborn and matplotlib (such as boxplots and histograms) that allow observing the distribution of traffic and its direct relationship with economic indicators.
+Using real-world data from the **TomTom Traffic Index** and **OECD Cities**, the analysis focuses on cleaning, merging, and exploring key metrics such as traffic congestion levels (`jams_delay`) and GDP per capita (`city_gdp_capita`). The goal is to identify patterns and determine where strategic investments in transportation infrastructure are most critical to boosting economic productivity in emerging global megalopolises.
 
-✔ How to open the notebook in Colab?
-You can explore the code, view the charts, and run the analysis without installing anything on your computer by clicking the link below:
+## 📁 What does this repository contain?
+* **`S5 ladb_mobility_economy_project_student.ipynb`**: The main Jupyter Notebook containing the full Python pipeline. It covers data cleaning, column standardization, filtering for 2024, and calculating average traffic delays per city.
+* **Data Visualizations**: Built-in charts generated with `seaborn` and `matplotlib` (including boxplots and histograms) that illustrate the distribution of traffic and its correlation with economic indicators.
 
-👉 Open Notebook in Google Colab
+## 🚀 How to open the notebook in Colab?
+You can easily explore the code, view the charts, and interact with the analysis right in your browser without installing anything locally:
 
-✔ How to reproduce this analysis?
-To run the analysis from scratch and get the same results, follow these steps:
+👉 **[Click here to open the Notebook in Google Colab](https://colab.research.google.com/drive/1AeRWISu0kwJPH94dVlmNUQ9JW3WEbvy_)**
 
-Open the main file: Launch the S5 ladb_mobility_economy_project_student.ipynb notebook in Google Colab using the link above, or clone it to use in your local Jupyter environment.
+## ⚙️ How to reproduce this analysis?
+If you want to run the analysis from scratch or fork the project, follow these steps:
 
-Load the Datasets: Data loading is programmed directly in "Step 1" of the notebook using pandas. It uses the internal paths /datasets/tomtom_traffic.csv and /datasets/oecd_city_economy.csv. If you are running this locally, make sure to have the CSV files located in a datasets folder in the same directory as your environment.
-
-Sequential Execution: Run the cells in descending order. The notebook is designed to follow a logical flow:
-
-Data exploration and standardization (renaming to snake_case and cleaning numeric/date formats).
-
-Filtering exclusively for the year 2024.
-
-Grouping data to obtain average traffic times per city.
-
-Merging (inner join) the mobility and economy tables.
-
-Executing the visualization cells to view the resulting charts.
+1. **Open the Notebook**: Launch `S5 ladb_mobility_economy_project_student.ipynb` in Colab using the badge above, or clone this repository to run it locally.
+2. **Load the Datasets**: The data loading process is programmed in "Step 1" using `pandas`. It relies on the paths `/datasets/tomtom_traffic.csv` and `/datasets/oecd_city_economy.csv`. If running locally, ensure these CSV files are placed inside a `datasets/` folder in your working directory.
+3. **Run Sequentially**: Execute the cells from top to bottom. The notebook logically flows through:
+   * Data exploration and standardization (formatting to *snake_case* and cleaning data types).
+   * Filtering the dataset specifically for the year 2024.
+   * Aggregating traffic delay averages by city.
+   * Merging (*inner join*) the mobility and economy datasets.
+   * Generating the final visualizations and insights.
