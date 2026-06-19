@@ -1,6 +1,6 @@
 # 🏙️ Urban Mobility & Economy Analysis 2024
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AeRWISu0kwJPH94dVlmNUQ9JW3WEbvy_)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WurfiRSMfzr7t73I4i-uj4z2q7UYibNT)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/wasuarezm-cell/ladb_mobility_economy_2024)
 
 This repository contains the analysis evaluating how urban mobility impacts economic productivity across major cities worldwide in 2024. 
@@ -16,7 +16,7 @@ The project uses real-world data from the **TomTom Traffic Index** and **OECD Ci
 
 Click the button below:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AeRWISu0kwJPH94dVlmNUQ9JW3WEbvy_)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WurfiRSMfzr7t73I4i-uj4z2q7UYibNT)
 
 Or:
 1. Open the `.ipynb` file directly on GitHub.
@@ -34,5 +34,3 @@ Or:
 - Analyze behaviors, distributions, and outliers using Python visualizations (`seaborn` and `matplotlib`).
 - Identify patterns between urban traffic congestion and economic performance.
 - Generate insights to determine where strategic investments in transportation infrastructure are most critical to boosting economic productivity in emerging global megalopolises.
-
-```
